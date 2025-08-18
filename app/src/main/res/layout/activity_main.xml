@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+  android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/darkbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dark Theme!"
+        android:backgroundTint="#000000"
+         />
+    <Button
+        android:id="@+id/lightbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Theme! Light"
+        android:backgroundTint="#959595"
+        android:textColor="@color/black"
+        android:elevation="5dp"
+        />
+    <Button
+        android:id="@+id/movebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/Dark"
+        android:text="Move two second activity"
+        />
+
+</LinearLayout>
