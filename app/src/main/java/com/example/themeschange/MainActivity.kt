@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val movebtn=findViewById<Button>(R.id.movebtn)
         darkTheme.setOnClickListener{
 Layout.setBackgroundResource(R.color.Dark)
+
         }
         lightTheme.setOnClickListener {
             Layout.setBackgroundResource(R.color.Light)
